@@ -218,4 +218,15 @@ main {
 
 .letter__footer {
   display: flex;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */

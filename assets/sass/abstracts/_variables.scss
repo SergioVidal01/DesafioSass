@@ -81,7 +81,7 @@ header {
 
 .news__desc {
 
-  font-weight:   $font-weight-bold;
+  font-weight: $font-weight-bold;
   font-size: $size-text-large;
 
 }
@@ -277,6 +277,18 @@ border-radius: 20px;
 }
 .letter__footer {
     display: flex;
+    
+
+}
+footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
     
 
 }
