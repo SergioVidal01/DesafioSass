@@ -3,7 +3,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-header {
+header, footer {
   font-weight: 700;
   font-style: normal;
   font-size: 24px;
@@ -175,6 +175,48 @@ header {
   display: flex;
 }
 
+.subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #28a745;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+.subscription .subscription__text {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: start;
+}
+.subscription .subscription__input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.subscription .subscription__input-container .subscription__input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+}
+.subscription .subscription__input-container .subscription__button {
+  background-color: #fff;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.subscription .subscription__input-container .subscription__button:hover {
+  background-color: #e0e0e0;
+}
+
 header, footer {
   display: flex;
   align-items: center;
@@ -184,6 +226,12 @@ header {
   width: 1280px;
   height: 130px;
   border-bottom: 2px solid #CCCCCC;
+}
+
+footer {
+  border-top: 2px solid #CCCCCC;
+  width: 1280px;
+  height: 130px;
 }
 
 .header__logo {
@@ -310,4 +358,52 @@ main {
 }
 .registration-form__btn--google:hover {
   background-color: #bd2e22;
+}
+
+.post {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.post__title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.post__details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post__detail-item {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.post__detail-item:last-child {
+  margin-right: 0;
+}
+
+.post__content {
+  font-size: 16px;
+  color: #666;
+}
+
+.post__content-box {
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.post__content-box p {
+  margin: 0 0 10px 0;
+}
+
+.post__content-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
 }/*# sourceMappingURL=main.css.map */

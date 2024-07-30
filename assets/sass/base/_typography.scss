@@ -4,12 +4,13 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-header {
+header, footer{
     font-weight: $font-weight-bold;
     font-style: $font-style-type;
     font-size: 24px;
     line-height: 36px;  
 }
+
 
 .news__date {
     font-weight: $font-weight-light;
